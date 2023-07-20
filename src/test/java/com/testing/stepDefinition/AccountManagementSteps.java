@@ -26,9 +26,7 @@ public class AccountManagementSteps {
         createAccountPagePO.enterEmailAddress(Email);
         createAccountPagePO.enterPassword(Password);
         createAccountPagePO.enterConfirmPassword(ConfirmPassword);
-        SignInPO signInPO = new SignInPO(driver);
-        signInPO.enterEmail(Email);
-        signInPO.enterPassword(Password);
+
     }
 
     @And("I click on create an account")
